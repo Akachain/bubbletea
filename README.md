@@ -1,5 +1,7 @@
 # BubbleTea
 
+## Introduction
+
 This project provides a dashboard with comprehensive information of an application deploying on Akachain.
 The project is provided as a JSON model of a Grafana dashboard.
 
@@ -14,3 +16,8 @@ Provided information are:
 | Containers         | Summary of all Containers                              |
 | Jobs               | Summary of Jobs                                        |
 | Blockchain Metrics | Customized AKC metrics from DAPP to the blockchain     |
+
+## How-to-use
+
+1. On Grafana, create Prometheus data source 
+2. Create a new Grafana dashboard by import the content of `model.json`
